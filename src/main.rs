@@ -9,6 +9,6 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         .send()?
         .text()?;
     println!("{}", res);
-
+	println!("DONE!");
     Ok(())
 }
